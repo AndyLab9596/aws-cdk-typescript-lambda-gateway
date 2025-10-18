@@ -1,0 +1,23 @@
+@URL = https://orcplp00t4.execute-api.ap-southeast-1.amazonaws.com
+
+### Get Home Route
+GET {{URL}}
+
+### Create Profile
+POST {{URL}}/profile
+Content-Type: application/json
+
+{
+    "username": "Chung Thien Vy"
+}
+
+### Get Welcome Route
+GET {{URL}}/welcome
+
+### Login Route
+POST {{URL}}/login
+Content-Type: application/json
+
+{
+    "username": "Chung Thien Vy"
+}
